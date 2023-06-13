@@ -8,6 +8,10 @@ import { ParcoursComponent } from '../parcours/parcours.component';
 
 const routes: Routes = [
   {
+    path:'',
+    component:AcceuilComponent
+  },
+  {
     path:'competences',
     component:CompetencesComponent,
   },
